@@ -1,3 +1,10 @@
+o: 
+	rm -f exec
+	rm -f a.out
+	g++ -std=c++11 OOP.cpp
+	./a.out
+
+
 n:
 	rm -f exec
 	rm -f a.out

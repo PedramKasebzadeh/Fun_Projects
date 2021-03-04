@@ -1,0 +1,25 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://www.ida.liu.se/~TDDE18/current/lab/given_files/lab5/example.html
+Subject: The page title!
+Date: Thu, 4 Mar 2021 09:27:29 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--DTReHeBdImhLGJU0p86Eu7sq73kL6xmDgYWs4z578K----"
+
+
+------MultipartBoundary--DTReHeBdImhLGJU0p86Eu7sq73kL6xmDgYWs4z578K----
+Content-Type: text/html
+Content-ID: <frame-6708E005D9777E71CCB2AC5339D42940@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://www.ida.liu.se/~TDDE18/current/lab/given_files/lab5/example.html
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3Dwindows-1252">
+<title> The page title! </title>
+</head>
+<body id=3D"my-body" data-new-gr-c-s-check-loaded=3D"14.997.0" data-gr-ext-=
+installed=3D""><h1>The Page: </h1><p>This is the page body. </p>
+
+</body></html>
+------MultipartBoundary--DTReHeBdImhLGJU0p86Eu7sq73kL6xmDgYWs4z578K------

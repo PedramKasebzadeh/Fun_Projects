@@ -1,0 +1,33 @@
+format 71
+
+subject 128042 ""
+  xyzwh 131 40 2000 355 227
+note 128426 "Engine"
+  xyzwh 130 32 2005 105 41
+classcanvas 128554 class_ref 141354 // viewport
+  class_drawing_mode default show_context_mode default show_stereotype_properties default
+  xyz 13 116 2005
+end
+fragment 129066 "for each pixel"
+  xyzwh 157 81 2005 314 99
+end
+usecasecanvas 129450 usecase_ref 142506 // throw a ray and calculate intersection
+  xyzwh 165 116 3005 297 45 label_xy 177 127
+end
+usecasecanvas 130218 usecase_ref 143018 // CreateImage
+  xyzwh 210 220 3005 135 45 label_xy 226 233
+end
+classcanvas 130474 class_ref 141482 // image
+  class_drawing_mode default show_context_mode default show_stereotype_properties default
+  xyz 560 115 2000
+end
+line 130090 ---- decenter_end 454
+  from ref 128554 z 3006 to ref 129450
+line 130346 --->
+  from ref 128554 z 3006 to ref 130218
+line 130858 --->
+  from ref 130218 z 3006 to ref 130474
+simplerelationcanvas 130986 simplerelation_ref 142250
+  from ref 130218 z 3006 stereotype "<<include>>" xyz 248 189 3000 to ref 129450
+end
+end

@@ -1,0 +1,6 @@
+CONNECTION="wireless"
+DESCRIPTION="Connexion insa"
+INTERFACE="wlan0"
+SECURITY="wpa-config"
+WPA_CONF="/etc/wpa_supplicant.conf"
+IP="dhcp"

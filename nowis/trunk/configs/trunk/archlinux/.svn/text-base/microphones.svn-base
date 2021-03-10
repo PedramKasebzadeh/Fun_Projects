@@ -1,0 +1,10 @@
+amixer sset 'Mic Mixer' 85% cap
+amixer sset 'Capture' 85% cap
+amixer sset 'Digital' 85%
+
+# webcam integrated microphone
+amixer sset 'Digital Input Source' 'Digital Mic 1'
+
+# external microphone
+amixer sset 'Digital Input Source'  'Analog Inputs'
+

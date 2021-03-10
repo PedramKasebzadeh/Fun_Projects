@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/202/trunk/tddd38/smart_pointer_1
+END
+test.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/194/trunk/tddd38/smart_pointer_1/test.cpp
+END
+Smart_pointer_I-en.pdf
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/194/trunk/tddd38/smart_pointer_1/Smart_pointer_I-en.pdf
+END
+smart_pointer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/194/trunk/tddd38/smart_pointer_1/smart_pointer.cpp
+END
+smart_pointer.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/194/trunk/tddd38/smart_pointer_1/smart_pointer.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/194/trunk/tddd38/smart_pointer_1/Makefile
+END

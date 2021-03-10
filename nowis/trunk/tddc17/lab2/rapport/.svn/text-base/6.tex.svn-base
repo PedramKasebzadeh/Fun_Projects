@@ -1,0 +1,17 @@
+\section{A* and Greedy Search}
+These two heuristic are not admissible.
+
+For H1, by example if there's two dirt square in a $1x2$ world, and if you are on cell which is not the home cell and in the direction to the home cell, you need 3 moves to go to the goal (suck, go forward, suck). But H1 will return $2^2 = 4$. That means that H1 is not an admissible heuristic.
+
+For H2, by example, in a $1x2$ world, if the not-home cell is dirty and you're on it (and in direction to the home cell), you need $2$ moves to go to the goal (suck, go forward). But H2 will return $1^2 + (1+1)*1 = 3$. That means that H2 is not an admissible heuristic.
+
+Anyway, using the Greedy algorithm with heuristic H1 seems to never lead to a goal node. That's seems understandable because this heuristic give really often the same result. So the don't help greedy algorithm to choose the good action. Sometimes this algorithm with H1 found a path to goal node, so maybe there's a random selection between action which have the same value for heuristic H1.
+
+A* seems to be better than Greedy with heuristic H1. It's obviously because A* don't forget the past, and know the cost of the current past. So with a bad heuristic like H1, A* could seems a bit like a Breadth First Search.
+
+Greedy algorithm with heuristic H2 give better result than with H1. It's because this heuristic H2 suits better to this world and so greedy algorithm go faster to the goal node. 
+
+Sometimes, using the heuristic H2, Greedy will take too much time (and too much memory) (usually in big worlds). In that case, A* will most of the time found a path in acceptable time.
+
+Anyway, in small world, Greedy will be faster (because he only care of being the nearest possible of the goal node, not taking care of the past).
+

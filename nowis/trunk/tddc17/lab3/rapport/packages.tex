@@ -1,0 +1,37 @@
+\subsection{Packages}
+
+Now we will try to increase the number of packages. All packages will not necessarily be in the goal (don't need to be moved).
+
+  \subsubsection{FF planer}
+
+\begin{tabular}{|c|c|c|}
+  \hline
+  total packages (in goal) & total time & evaluated states (max depth) \\ \hline
+  4 (4)  & 5.96s & 1823 (13) \\ \hline
+  5 (4)  & 380.95s & 1823 (13) \\ \hline
+  5 (5)  & 282.43s & 1565 (13) \\ \hline
+  6 (6)  & X & X \\ \hline
+  8 (4)  & X & X \\ \hline
+  8 (8)  & X & X \\ \hline
+\end{tabular}
+
+FF planner doesn't explore more node if there's more dummy packet (packet which doesn't have to be moved). However it spend more time evaluating each node (compare line 1 and 2).
+
+  \subsubsection{IPP planer}
+
+\begin{tabular}{|c|c|c|}
+  \hline
+  total packages (in goal) & total time & actions tried \\ \hline
+  4 (4)  & 5.72s  & 64345 \\ \hline
+  5 (4)  & 6.41s & 64345 \\ \hline
+  5 (5)  & 22.95s & 237012 \\ \hline
+  6 (6)  & 351.24s  & 4062129 \\ \hline
+  8 (4)  & 8.34s & 64345 \\ \hline
+  8 (8)  & X & X \\ \hline
+\end{tabular}
+
+As we can see, IPP don't care about packet which are not is the goal.
+
+However, increasing packages in goal increase greatly the number of actions tried and so the total time.
+
+

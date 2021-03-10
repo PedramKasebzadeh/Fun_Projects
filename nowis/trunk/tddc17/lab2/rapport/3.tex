@@ -1,0 +1,11 @@
+\section{A* heuristic}
+In the vacuum domain, the heuristic fonction for A* to go the a cell(x1, y2) to a goal(x2, y2 could be the manhanttan distance :
+                                                                                
+$h(currentCell) = \|goal - currentCell\| =  |x2 - x| + |y2 - y|$
+
+The cost function g is simply the number of action done to go the current cell.
+
+This heuristic is an admissble heuristic because it will always be the no-more than the lowest-cost path to the goal. The vaccum agent can just go to a cell which is on the top or right or bottom or left of his current position, that made that the manhattan distance give the lowest-cost path to the goal.
+
+However, this heuristic don't consider that the agent have to turn before go forward to another cell. Anyway, the lowest-cost path became the h(x) + 1 (the cost of 1 turn).
+

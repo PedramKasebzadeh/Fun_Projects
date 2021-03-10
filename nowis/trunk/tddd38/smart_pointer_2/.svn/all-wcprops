@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/201/trunk/tddd38/smart_pointer_2
+END
+smart_pointer.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/200/trunk/tddd38/smart_pointer_2/smart_pointer.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/200/trunk/tddd38/smart_pointer_2/Makefile
+END
+smart_pointer.tcc
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/201/trunk/tddd38/smart_pointer_2/smart_pointer.tcc
+END
+Smart_pointer_II-en.pdf
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/200/trunk/tddd38/smart_pointer_2/Smart_pointer_II-en.pdf
+END
+test.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/200/trunk/tddd38/smart_pointer_2/test.cpp
+END
+smart_pointer-test-function-calls.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/200/trunk/tddd38/smart_pointer_2/smart_pointer-test-function-calls.cpp
+END
+Smart_pointer_I-en.pdf
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/200/trunk/tddd38/smart_pointer_2/Smart_pointer_I-en.pdf
+END
+smart_pointer-test-basics.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/200/trunk/tddd38/smart_pointer_2/smart_pointer-test-basics.cpp
+END
+Tracer.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/200/trunk/tddd38/smart_pointer_2/Tracer.h
+END
+smart_pointer-test-const.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/200/trunk/tddd38/smart_pointer_2/smart_pointer-test-const.cpp
+END
+smart_pointer-test-compare.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/200/trunk/tddd38/smart_pointer_2/smart_pointer-test-compare.cpp
+END
+smart_pointer_3-test-compare-more.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/200/trunk/tddd38/smart_pointer_2/smart_pointer_3-test-compare-more.cpp
+END
+smart_pointer_4-test-const.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/200/trunk/tddd38/smart_pointer_2/smart_pointer_4-test-const.cpp
+END

@@ -1,0 +1,144 @@
+<composed_spring_object name="noname" >
+<defined_objects>
+<Wheel x="62.91618767788657" y="129.91616031224203" radius="40.33421874607461" id="wheel_70" k="20.0" d="0.15" torque="2500.0" rotate_key_1="VK_RIGHT" rotate_key_2="VK_LEFT" rotMiddle="true" nrSects="8" />
+<Wheel x="289.237916234899" y="132.33996217029642" radius="40.34105778265723" id="wheel_71" k="20.0" d="0.15" torque="2500.0" rotate_key_1="VK_RIGHT" rotate_key_2="VK_LEFT" rotMiddle="true" nrSects="8" />
+<RocketEngine  id="rocket_engine_325"  x="77.97941267862464"  y="21.180710577188947"  force="150.0"  burst_key="VK_DOWN"  />
+<RocketEngine  id="rocket_engine_327"  x="301.4288466787424"  y="54.891901394508245"  force="150.0"  burst_key="VK_DOWN"  />
+</defined_objects>
+<masses>
+<Mass x="37.063357747767796" y="32.89292257849321" id="ss87m1_0" kg="1.0" />
+<Mass x="61.25555736659851" y="13.00263473083264" id="ss87m1_1" kg="1.0" />
+<Mass x="15.826663340659834" y="46.51626982434293" id="ss87m2_0" kg="1.0" />
+<Mass x="69.58195389978243" y="42.78367976452422" id="ss87m2_1" kg="1.0" />
+<Mass x="93.4383525873144" y="2.787050409659045" id="ss87m1_2" kg="1.0" />
+<Mass x="87.04251405371213" y="29.897420181685888" id="ss87m2_2" kg="1.0" />
+<Mass x="154.25106722136627" y="8.05145319105877" id="ss87m1_3" kg="1.0" />
+<Mass x="172.89557524234704" y="33.63172602369299" id="ss87m2_3" kg="1.0" />
+<Mass x="201.02104519139442" y="7.122986623442316" id="ss87m1_4" kg="1.0" />
+<Mass x="237.17981249732333" y="20.284059459372074" id="ss87m2_4" kg="1.0" />
+<Mass x="-23.697315348207084" y="53.109909704530125" id="ss87m3_0" kg="1.0" />
+<Mass x="66.37759959666903" y="57.26572366708179" id="ss87m3_1" kg="1.0" />
+<Mass x="118.27613113334029" y="49.64475109565983" id="ss87m3_2" kg="1.0" />
+<Mass x="181.26744685980447" y="51.39435143878829" id="ss87m3_3" kg="1.0" />
+<Mass x="273.64170056577643" y="49.17892660831045" id="ss87m3_4" kg="1.0" />
+<Mass x="345.31389195426016" y="58.08478479746613" id="ss87m2_5" kg="1.0" />
+<Mass x="360.014586841624" y="60.879738870706646" id="ss87m2_6" kg="1.0" />
+<Mass x="328.147342028103" y="61.49702477943232" id="ss87m3_5" kg="1.0" />
+<Mass x="352.91397539562774" y="70.49799195956898" id="ss87m3_6" kg="1.0" />
+<Mass x="-17.38446574609121" y="85.165589011559" id="ss87m4_0" kg="1.0" />
+<Mass x="69.69001971889986" y="77.8435539848749" id="ss87m4_1" kg="1.0" />
+<Mass x="122.74037176921878" y="73.82267657972925" id="ss87m4_2" kg="1.0" />
+<Mass x="183.68997869518125" y="73.78640802549687" id="ss87m4_3" kg="1.0" />
+<Mass x="240.1594470137615" y="71.94188138635919" id="ss87m4_4" kg="1.0" />
+<Mass x="298.3362836480568" y="74.19019296928884" id="ss87m4_5" kg="1.0" />
+<Mass x="354.129576516542" y="82.35301455307898" id="ss87m4_6" kg="1.0" />
+<Mass x="383.3480113630367" y="82.95177417934882" id="ss87m3_7" kg="1.0" />
+<Mass x="412.94008012660584" y="94.96636325301266" id="ss87m4_7" kg="1.0" />
+<Mass x="-9.741231869012253" y="107.20244503302368" id="ss87m5_0" kg="1.0" />
+<Mass x="57.70721484576882" y="90.50060103284045" id="ss87m5_1" kg="1.0" />
+<Mass x="124.14302361989476" y="95.93881303493495" id="ss87m5_2" kg="1.0" />
+<Mass x="188.1539605860853" y="96.38278141564089" id="ss87m5_3" kg="1.0" />
+<Mass x="241.29234120504623" y="96.48210139767608" id="ss87m5_4" kg="1.0" />
+<Mass x="299.5768402757311" y="89.25038664209148" id="ss87m5_5" kg="1.0" />
+<Mass x="354.0252678914852" y="108.21701036781073" id="ss87m5_6" kg="1.0" />
+<Mass x="407.98793720192225" y="112.32354130437098" id="ss87m5_7" kg="1.0" />
+<Mass x="22.74136468755036" y="113.19810179197795" id="ss87m6_0" kg="1.0" />
+<Mass x="67.86968826821442" y="101.36424396698598" id="ss87m6_1" kg="1.0" />
+<Mass x="118.3198394122529" y="119.9869681470505" id="ss87m6_2" kg="1.0" />
+<Mass x="167.006436261045" y="117.48217448660348" id="ss87m6_3" kg="1.0" />
+<Mass x="249.18683001438893" y="116.5020985222617" id="ss87m6_4" kg="1.0" />
+<Mass x="293.96155428338204" y="103.11228132243119" id="ss87m6_5" kg="1.0" />
+<Mass x="354.4144417787305" y="125.38210622271077" id="ss87m6_6" kg="1.0" />
+<Mass x="402.1898517541863" y="124.48918003083128" id="ss87m6_7" kg="1.0" />
+<Mass x="77.97941267862464" y="21.180710577188947" id="rocket_engine_325_mass_1" kg="1.0" />
+<Mass x="47.97955290319215" y="21.272435461482743" id="rocket_engine_325_mass_2" kg="1.0" />
+<Mass x="87.90292853352386" y="-3.8497475304358053" id="rocket_engine_325_mass_3" kg="1.0" />
+<Mass x="37.903162241136464" y="-3.696872723279575" id="rocket_engine_325_mass_4" kg="1.0" />
+<Mass x="301.4288466787424" y="54.891901394508245" id="rocket_engine_327_mass_1" kg="1.0" />
+<Mass x="271.4300847981709" y="54.61934748651188" id="rocket_engine_327_mass_2" kg="1.0" />
+<Mass x="311.6555622289303" y="29.98378446336377" id="rocket_engine_327_mass_3" kg="1.0" />
+<Mass x="261.65762576131067" y="29.52952795003663" id="rocket_engine_327_mass_4" kg="1.0" />
+</masses>
+<springs>
+<Spring from="wheel_70" to="ss87m3_0" k="20.0" d="0.1" forceThreshold="1400.0"  />
+<Spring from="wheel_70" to="ss87m1_0" k="20.0" d="0.1" forceThreshold="1400.0"  />
+<Spring from="wheel_70" to="ss87m3_2" k="20.0" d="0.1" forceThreshold="1400.0"  />
+<Spring from="wheel_70" to="ss87m4_3" k="20.0" d="0.1" forceThreshold="1400.0"  />
+<Spring from="wheel_71" to="ss87m4_4" k="20.0" d="0.1" forceThreshold="1400.0"  />
+<Spring from="wheel_71" to="ss87m4_5" k="20.0" d="0.1" forceThreshold="1400.0"  />
+<Spring from="wheel_71" to="ss87m4_6" k="20.0" d="0.1" forceThreshold="1400.0"  />
+<Spring from="wheel_71" to="ss87m5_4" k="20.0" d="0.1" forceThreshold="1400.0"  />
+<Spring from="wheel_70" to="wheel_71" k="20.0" d="0.1" forceThreshold="1400.0"  />
+<Spring from="wheel_71" to="ss87m5_7" k="20.0" d="0.1" forceThreshold="1400.0"  />
+<Spring from="ss87m3_4" to="ss87m6_4" k="20.0" d="0.1" forceThreshold="700.0"  />
+<Spring from="ss87m6_6" to="ss87m3_5" k="20.0" d="0.1" forceThreshold="700.0"  />
+<Spring from="ss87m5_5" to="ss87m3_5" k="20.0" d="0.1" forceThreshold="700.0"  />
+<Spring from="ss87m2_4" to="ss87m4_4" k="20.0" d="0.1" forceThreshold="700.0"  />
+<Spring from="ss87m1_4" to="ss87m5_3" k="20.0" d="0.1" forceThreshold="700.0"  />
+<Spring from="ss87m1_3" to="ss87m3_2" k="20.0" d="0.1" forceThreshold="700.0"  />
+<Spring from="ss87m3_7" to="ss87m6_7" k="20.0" d="0.1" forceThreshold="700.0"  />
+<Spring from="ss87m6_7" to="ss87m4_6" k="20.0" d="0.1" forceThreshold="700.0"  />
+<Spring from="ss87m6_6" to="ss87m4_7" k="20.0" d="0.1" forceThreshold="700.0"  />
+<Spring from="ss87m2_0" to="ss87m6_0" k="20.0" d="0.1" forceThreshold="700.0"  />
+<Spring from="ss87m1_3" to="ss87m6_3" k="20.0" d="0.1" forceThreshold="700.0"  />
+<Spring from="rocket_engine_325_mass_4" to="ss87m3_0" k="20.0" d="0.1" forceThreshold="700.0"  />
+<Spring from="rocket_engine_325_mass_3" to="ss87m1_3" k="20.0" d="0.1" forceThreshold="700.0"  />
+<Spring from="rocket_engine_325_mass_1" to="wheel_70" k="20.0" d="0.1" forceThreshold="700.0"  />
+<Spring from="rocket_engine_325_mass_2" to="wheel_70" k="20.0" d="0.1" forceThreshold="700.0"  />
+<Spring from="rocket_engine_325_mass_1" to="ss87m4_2" k="20.0" d="0.1" forceThreshold="700.0"  />
+<Spring from="rocket_engine_325_mass_2" to="ss87m4_0" k="20.0" d="0.1" forceThreshold="700.0"  />
+<Spring from="rocket_engine_325_mass_1" to="ss87m5_0" k="20.0" d="0.1" forceThreshold="700.0"  />
+<Spring from="rocket_engine_325_mass_2" to="ss87m5_2" k="20.0" d="0.1" forceThreshold="700.0"  />
+<Spring from="rocket_engine_327_mass_4" to="ss87m1_4" k="20.0" d="0.1" forceThreshold="700.0"  />
+<Spring from="rocket_engine_327_mass_3" to="ss87m3_7" k="20.0" d="0.1" forceThreshold="700.0"  />
+<Spring from="rocket_engine_327_mass_2" to="wheel_71" k="20.0" d="0.1" forceThreshold="700.0"  />
+<Spring from="rocket_engine_327_mass_1" to="wheel_71" k="20.0" d="0.1" forceThreshold="700.0"  />
+<Spring from="rocket_engine_327_mass_1" to="ss87m5_6" k="20.0" d="0.1" forceThreshold="700.0"  />
+<Spring from="rocket_engine_327_mass_2" to="ss87m5_4" k="20.0" d="0.1" forceThreshold="700.0"  />
+</springs>
+<colors>
+<color r="12" g="0" b="0" id="col_12_0_0" />
+<color r="25" g="38" b="25" id="col_25_38_25" />
+<color r="242" g="242" b="0" id="col_242_242_0" />
+</colors>
+<stable_structures>
+<stable_crushable_structure id="stable_crushable_structure_87" thres="700.0" k="30.0" d="0.1" >
+<segment upper_left = "ss87m1_0" upper_right = "ss87m1_1" lower_left = "ss87m2_0" lower_right = "ss87m2_1" color = "col_12_0_0" />
+<segment upper_left = "ss87m1_1" upper_right = "ss87m1_2" lower_left = "ss87m2_1" lower_right = "ss87m2_2" color = "col_12_0_0" />
+<segment upper_left = "ss87m1_2" upper_right = "ss87m1_3" lower_left = "ss87m2_2" lower_right = "ss87m2_3" color = "col_25_38_25" />
+<segment upper_left = "ss87m1_3" upper_right = "ss87m1_4" lower_left = "ss87m2_3" lower_right = "ss87m2_4" color = "col_25_38_25" />
+<segment upper_left = "ss87m2_0" upper_right = "ss87m2_1" lower_left = "ss87m3_0" lower_right = "ss87m3_1" color = "col_12_0_0" />
+<segment upper_left = "ss87m2_1" upper_right = "ss87m2_2" lower_left = "ss87m3_1" lower_right = "ss87m3_2" color = "col_12_0_0" />
+<segment upper_left = "ss87m2_2" upper_right = "ss87m2_3" lower_left = "ss87m3_2" lower_right = "ss87m3_3" color = "col_25_38_25" />
+<segment upper_left = "ss87m2_3" upper_right = "ss87m2_4" lower_left = "ss87m3_3" lower_right = "ss87m3_4" color = "col_25_38_25" />
+<segment upper_left = "ss87m2_5" upper_right = "ss87m2_6" lower_left = "ss87m3_5" lower_right = "ss87m3_6" color = "col_242_242_0" />
+<segment upper_left = "ss87m3_0" upper_right = "ss87m3_1" lower_left = "ss87m4_0" lower_right = "ss87m4_1" color = "col_12_0_0" />
+<segment upper_left = "ss87m3_1" upper_right = "ss87m3_2" lower_left = "ss87m4_1" lower_right = "ss87m4_2" color = "col_12_0_0" />
+<segment upper_left = "ss87m3_2" upper_right = "ss87m3_3" lower_left = "ss87m4_2" lower_right = "ss87m4_3" color = "col_12_0_0" />
+<segment upper_left = "ss87m3_3" upper_right = "ss87m3_4" lower_left = "ss87m4_3" lower_right = "ss87m4_4" color = "col_12_0_0" />
+<segment upper_left = "ss87m3_4" upper_right = "ss87m3_5" lower_left = "ss87m4_4" lower_right = "ss87m4_5" color = "col_12_0_0" />
+<segment upper_left = "ss87m3_5" upper_right = "ss87m3_6" lower_left = "ss87m4_5" lower_right = "ss87m4_6" color = "col_12_0_0" />
+<segment upper_left = "ss87m3_6" upper_right = "ss87m3_7" lower_left = "ss87m4_6" lower_right = "ss87m4_7" color = "col_12_0_0" />
+<segment upper_left = "ss87m4_0" upper_right = "ss87m4_1" lower_left = "ss87m5_0" lower_right = "ss87m5_1" color = "col_12_0_0" />
+<segment upper_left = "ss87m4_1" upper_right = "ss87m4_2" lower_left = "ss87m5_1" lower_right = "ss87m5_2" color = "col_12_0_0" />
+<segment upper_left = "ss87m4_2" upper_right = "ss87m4_3" lower_left = "ss87m5_2" lower_right = "ss87m5_3" color = "col_12_0_0" />
+<segment upper_left = "ss87m4_3" upper_right = "ss87m4_4" lower_left = "ss87m5_3" lower_right = "ss87m5_4" color = "col_12_0_0" />
+<segment upper_left = "ss87m4_4" upper_right = "ss87m4_5" lower_left = "ss87m5_4" lower_right = "ss87m5_5" color = "col_12_0_0" />
+<segment upper_left = "ss87m4_5" upper_right = "ss87m4_6" lower_left = "ss87m5_5" lower_right = "ss87m5_6" color = "col_12_0_0" />
+<segment upper_left = "ss87m4_6" upper_right = "ss87m4_7" lower_left = "ss87m5_6" lower_right = "ss87m5_7" color = "col_12_0_0" />
+<segment upper_left = "ss87m5_0" upper_right = "ss87m5_1" lower_left = "ss87m6_0" lower_right = "ss87m6_1" color = "col_12_0_0" />
+<segment upper_left = "ss87m5_1" upper_right = "ss87m5_2" lower_left = "ss87m6_1" lower_right = "ss87m6_2" color = "col_12_0_0" />
+<segment upper_left = "ss87m5_2" upper_right = "ss87m5_3" lower_left = "ss87m6_2" lower_right = "ss87m6_3" color = "col_12_0_0" />
+<segment upper_left = "ss87m5_3" upper_right = "ss87m5_4" lower_left = "ss87m6_3" lower_right = "ss87m6_4" color = "col_12_0_0" />
+<segment upper_left = "ss87m5_4" upper_right = "ss87m5_5" lower_left = "ss87m6_4" lower_right = "ss87m6_5" color = "col_12_0_0" />
+<segment upper_left = "ss87m5_5" upper_right = "ss87m5_6" lower_left = "ss87m6_5" lower_right = "ss87m6_6" color = "col_12_0_0" />
+<segment upper_left = "ss87m5_6" upper_right = "ss87m5_7" lower_left = "ss87m6_6" lower_right = "ss87m6_7" color = "col_12_0_0" />
+</stable_crushable_structure></stable_structures>
+<solid_objects>
+</solid_objects>
+<keypress_delegate ref = "wheel_70" />
+<keypress_delegate ref = "wheel_71" />
+<keypress_delegate ref = "rocket_engine_325" />
+<keypress_delegate ref = "rocket_engine_327" />
+<center_mass ref="wheel_70" />
+</composed_spring_object>

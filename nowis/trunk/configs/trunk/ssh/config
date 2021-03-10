@@ -1,0 +1,19 @@
+Host insa
+  Hostname srv-ens1
+  User vernhes
+
+Host insa2
+  Hostname srv-ens2
+  User vernhes
+
+Host gei
+  Hostname srv-gei-ens1
+  User vernhes
+
+Host gei2
+  Hostname srv-gei-ens2
+  User vernhes
+
+Host *
+  ServerAliveInterval 30
+  ServerAliveCountMax 120

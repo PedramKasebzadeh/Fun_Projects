@@ -1,0 +1,32 @@
+\section{Advanced agent}
+This agent will explore the entire word in a relative smart way and store the world.
+
+Firstly, the agent create a 3x3 world with the home cell in the middle, all others cells are marked as unknown.
+
+At each turn, the agent will update his world : enlarging world if border of known world have been reached, change status of unreachable cell to walls.
+
+Then the agent will check if the current cell is dirty and, if so, clean it.
+
+Then the agent will check if an operation is in progress (moving to another cell) by checking if the stack where the path is stored is empty and if not take the direction to move to the next cell.
+
+If the stack is empty, he will search the nearest unknown cell and generate a path to this cell (using Dijkstra algorithm). If there's no more unknown cells, the agent will found a path to go back home.
+
+Concretely, the agent, when an agent want to explore a new cell, he will go forward to it, if he bump that means that the cell is a wall.
+
+During it's travel to the new cell, the agent could not bump before he get to the cell because the path is only full of empty cell.
+
+In fact, during dijkstra exploration, we just take care if the next cell is a wall or not because the goal is always the nearest unknown cell, so the closest path will always been only filled with empty cells.
+
+\subsection{Results}
+Dirt probability will be 10\% for each test (because it doesn't affect how agent works, it just increase the scores).
+
+In a 5x5 environment with a hinder probability of 10\%, this agent will score 87 (best score for random and reactive vacuum agent is -898)
+
+In a 20x20 environment with a hinder probability of 10\%, this agent will score 2442 (score for random vacuum agent is -1100 and -600 for reactive vacuum agent)
+
+In a 20x20 environment with a hinder probability of 20\%, this agent will score 1831 (average score for random vacuum agent is -1000 and -700 for reactive vacuum agent).
+
+In a 20x20 environment with a very high hinder probability (50\%), the strongly connected component of the starting position is very tiny, so the agent cannot explore the entire, and will restrict his exploration to this strongly connected component.
+
+\subsection{Conclusion}
+

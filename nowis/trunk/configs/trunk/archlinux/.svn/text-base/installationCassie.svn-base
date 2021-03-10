@@ -1,0 +1,16 @@
+### Audio ###
+# ajouter dans /etc/modprobe.d/50-sound.conf
+options snd-hda-intel model=dell-m6
+
+#### Polices d'affichages ###
+# faire des liens symboliques
+$ cd /etc/fonts/conf.d
+$ ln -sf ../conf.avail/* .
+
+### Xorg ###
+# installer xorg
+# installer les pilotes catalyst (archlinux --> un dépôt existe)
+
+# Luminosité, mode veille et touche Eject
+rajouter noapic dans grub
+

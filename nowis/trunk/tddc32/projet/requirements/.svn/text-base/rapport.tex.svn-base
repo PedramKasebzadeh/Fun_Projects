@@ -1,0 +1,91 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english,french]{babel}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+
+%%Links
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
+
+\geometry{hmargin=2cm, vmargin=2cm}
+
+\def\blurb{TDDC32 - Software Requirements Specification 1.1}
+
+\def\ligne#1{%
+  \hbox to \hsize{%
+    \vbox{\centering #1}}}%
+
+\def\abstract{%
+	\input{abstract}
+}
+
+\makeatletter
+\def\maketitle{%
+	\null
+	\vfill
+	\vbox{\centering \Large \textbf{\blurb}}
+	\vspace{15mm}
+	\vbox{\centering \LARGE \textbf{\@title}}
+	\vspace{15mm}
+	\vbox{\centering \@author}
+	\vspace{8mm}
+	\vbox{\centering \@date}
+	\vspace{15mm}
+	\vbox{\centering \textbf{Abstract}}
+	\vspace{5mm}
+	\vbox{%
+		\setlength{\fboxsep}{10pt}
+		\centering \fbox{%
+		\begin{minipage}{0.9\textwidth}
+			\setlength{\parindent}{1cm}
+			\setlength{\parskip}{2ex plus .4ex minus .4ex}
+			\abstract
+		\end{minipage}%
+	}
+%
+	}
+	\vfill
+
+}
+
+\title{Ray Tracing Engine}
+\author{Simon Vernhes \texttt{<simon@vernhes.eu>}}
+\date{\today}
+
+\begin{document}
+  \pagestyle{fancyplain}
+  \setlength{\parskip}{.6ex plus .4ex minus .4ex}
+  \renewcommand{\headrulewidth}{0pt}
+  \renewcommand{\footrulewidth}{0.6pt}
+  \fancyhf{}
+  \fancyhead{} 
+  \lfoot{\blurb}
+  \rfoot{Page \thepage}
+  \maketitle \clearpage
+  \tableofcontents \clearpage
+  
+  %\setlength{\parskip}{1ex plus .4ex minus .4ex}
+  \input{introduction}
+  \clearpage
+  \input{documentconvention}
+  \clearpage
+  \input{systemdescription}
+  \clearpage
+  \input{userinterface}
+  \input{systemfunctions}
+  \input{nonfunctional}
+  \input{storage}
+  \input{limitations}
+  \clearpage
+  \input{usecase}
+
+\end{document}
+

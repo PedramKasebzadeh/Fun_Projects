@@ -1,0 +1,1 @@
+java -Xmx512M -classpath ./aima-gui.jar:./aima-core.jar aima.gui.applications.liuvacuum.LIUVacuumSearchApp

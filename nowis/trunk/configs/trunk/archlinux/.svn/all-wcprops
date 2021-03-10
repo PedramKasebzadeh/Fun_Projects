@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/5/trunk/configs/trunk/archlinux
+END
+link
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/5/trunk/configs/trunk/archlinux/link
+END
+microphones
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/5/trunk/configs/trunk/archlinux/microphones
+END
+rc.conf
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/2/trunk/configs/trunk/archlinux/rc.conf
+END
+installationCassie
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/4/trunk/configs/trunk/archlinux/installationCassie
+END

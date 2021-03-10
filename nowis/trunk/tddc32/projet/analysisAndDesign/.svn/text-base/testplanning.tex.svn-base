@@ -1,0 +1,15 @@
+\section{Test planning}
+
+  \subsection{Unit Test}
+
+Each WorldObject will be unit tested, mainly the intersect method (intersection of the object with a ray)
+
+The ray tracing algorithm must be well tested before be really used. It cannot be really unit tested, mainly due to the fact that the result is an image, so it will be tested manually.
+
+  \subsection{Integration test}
+
+
+The parser must be test independently and be tested mostly manually.
+
+Finally we can test some render with the complete program.
+

@@ -1,0 +1,51 @@
+ambient 0.4
+
+camera
+  distance 5000
+  angle 0.8
+end
+
+# placer n copies de l'objet o, decalees par shiftx,shifty,shiftz
+proc repeat (objet object,flottant shiftx, flottant shifty, flottant shiftz, entier n)
+  if n < 1
+  then
+  else
+    put object
+    repeat(translate object by shiftx,shifty,shiftz end, 
+           shiftx, shifty, shiftz, n-1)
+  end
+end
+
+put light
+  rotation 0,0,0
+  intensity 0.3
+end
+
+let boule = sphere
+  center -500.0,-450.0,4500.0
+  radius 100.0
+  kd 1.0
+  ks 1.0
+  phong 2
+  color 255,20,20
+end
+
+put sphere
+  center 0,-500,8000
+  radius 2000
+  kd 0.8
+  ks 1
+  phong 4
+  color 240,240,240
+end
+ 
+put plane
+  rotation 0.08,0.0,0.0
+  shift -520
+  kd 0.8
+  ks 0.2
+  phong 1.5
+  color 200,200,200
+end
+
+repeat (boule,300,0,0,5)

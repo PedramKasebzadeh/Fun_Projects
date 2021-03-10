@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/123/trunk/tddc32/projet/src/jogl-1.1.1-solaris-sparc/lib
+END
+libjogl_awt.so
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/123/trunk/tddc32/projet/src/jogl-1.1.1-solaris-sparc/lib/libjogl_awt.so
+END
+libgluegen-rt.so
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/123/trunk/tddc32/projet/src/jogl-1.1.1-solaris-sparc/lib/libgluegen-rt.so
+END
+libjogl.so
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/123/trunk/tddc32/projet/src/jogl-1.1.1-solaris-sparc/lib/libjogl.so
+END
+gluegen-rt.jar
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/119/trunk/tddc32/projet/src/jogl-1.1.1-solaris-sparc/lib/gluegen-rt.jar
+END
+jogl.jar
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/119/trunk/tddc32/projet/src/jogl-1.1.1-solaris-sparc/lib/jogl.jar
+END

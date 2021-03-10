@@ -1,0 +1,2 @@
+syndaemon -t -i 2 &
+exec enlightenment_start

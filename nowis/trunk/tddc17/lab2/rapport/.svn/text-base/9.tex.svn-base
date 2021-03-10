@@ -1,0 +1,6 @@
+\section{Back to lab 1}
+
+We can't really use an offline search during lab1 because we doesn't know anything about the world. We just know what sensor tell us, and what we learn about the world before. So we can't generate a path to achieve the goal at the beginning.
+
+Anyway, after exploring a bit the world, we can use a search algorithm to lead the vacuum agent from a cell to another. During the lab1, I used a Dijkstra algorithm to do that. It would be easy to change this Dijkstra to an A* because we just have to add the heuristic, which will be the manhanttan distance.
+

@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/204/trunk/tddd38/container_1
+END
+container-1-test.cc
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/203/trunk/tddd38/container_1/container-1-test.cc
+END
+container-2-test.cc
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/203/trunk/tddd38/container_1/container-2-test.cc
+END
+container-3-test.cc
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/203/trunk/tddd38/container_1/container-3-test.cc
+END
+Container_Design_and_Robustness_I-en.pdf
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/203/trunk/tddd38/container_1/Container_Design_and_Robustness_I-en.pdf
+END
+container-4-test.cc
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/203/trunk/tddd38/container_1/container-4-test.cc
+END
+container-5-test.cc
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/203/trunk/tddd38/container_1/container-5-test.cc
+END
+container-6-test.cc
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/203/trunk/tddd38/container_1/container-6-test.cc
+END
+Tracer.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/203/trunk/tddd38/container_1/Tracer.h
+END
+Container.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/203/trunk/tddd38/container_1/Container.h
+END
+Container.tcc
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/203/trunk/tddd38/container_1/Container.tcc
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/204/trunk/tddd38/container_1/Makefile
+END

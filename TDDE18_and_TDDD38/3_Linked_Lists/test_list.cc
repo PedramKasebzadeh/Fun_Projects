@@ -29,4 +29,46 @@ TEST_CASE( "Create an empty list" ) {
   REQUIRE( l.size() == 0 );
 }
 
-// It is your job to create new test cases and fully test your Sorted_List class
+
+TEST_CASE( "check create node and is empty! AND SIZE!!" ) {
+  Sorted_List obj;
+	obj.createnode(25);
+	obj.createnode(50);
+	obj.createnode(90);
+	obj.createnode(40);
+  CHECK_FALSE(obj.is_empty());
+  CHECK(obj.size()==4);
+}
+
+TEST_CASE( "Inserting At End and to string" ) {
+  Sorted_List obj;
+	obj.createnode(25);
+	obj.createnode(50);
+	obj.createnode(90);
+	obj.createnode(40);
+  obj.insert_end(37);
+  CHECK_FALSE(obj.is_empty());
+  CHECK(obj.to_string() == "25 50 90 40 37 ");
+}
+
+TEST_CASE( "Inserting At beging and to string" ) {
+  Sorted_List obj;
+	obj.createnode(25);
+	obj.createnode(50);
+	obj.createnode(90);
+	obj.createnode(40);
+  obj.insert_start(37);
+  CHECK_FALSE(obj.is_empty());
+  CHECK(obj.to_string() == "37 25 50 90 40 ");
+}
+
+TEST_CASE( "Sorted string" ) {
+  Sorted_List obj;
+	obj.insert(25);
+	obj.insert(50);
+	obj.insert(90);
+	obj.insert(40);
+  obj.insert(37);
+  CHECK_FALSE(obj.is_empty());
+  CHECK(obj.to_string() == "25 37 40 50 90 ");
+}

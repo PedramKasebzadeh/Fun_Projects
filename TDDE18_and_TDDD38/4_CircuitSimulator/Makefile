@@ -1,5 +1,5 @@
 r:
 	rm -f exec
 	rm -f a.out
-	g++ Vector.cc main.cc
+	g++ simulator.cc
 	./a.out

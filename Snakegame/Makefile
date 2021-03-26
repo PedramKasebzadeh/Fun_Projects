@@ -1,3 +1,3 @@
 r:
-	g++ snake.cc -o play -lncurses
+	g++ Main.cc -o play -lncurses
 	./play

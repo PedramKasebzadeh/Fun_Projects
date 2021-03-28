@@ -86,7 +86,16 @@
 			"tuple": "cpp",
 			"type_traits": "cpp",
 			"typeinfo": "cpp",
-			"variant": "cpp"
+			"variant": "cpp",
+			"clocale": "cpp",
+			"compare": "cpp",
+			"condition_variable": "cpp",
+			"queue": "cpp",
+			"*.tcc": "cpp",
+			"concepts": "cpp",
+			"memory_resource": "cpp",
+			"ranges": "cpp",
+			"stop_token": "cpp"
 		}
 	}
 }

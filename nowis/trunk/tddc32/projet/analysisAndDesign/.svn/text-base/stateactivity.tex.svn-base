@@ -1,9 +1,0 @@
-\section{State and Activity diagrams}
-
-\begin{figure}[ht]
-  \centering
-  \includegraphics[height=10cm]{img/state_engine.png}
-  \caption{ray tracing parser}
-\end{figure}
-
-

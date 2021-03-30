@@ -1,5 +1,0 @@
-Ok This is just a test to 
-
-understand the capabilities of a simple C++ prgram. 
-fun justareallllllllyyyyyyyylooongwordtoomesswiththeaverage!
-I am not sure how long I will write this and if this will be enough or not? maybe I also should try some signs like @ # $ or ^ ?

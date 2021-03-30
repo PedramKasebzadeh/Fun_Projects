@@ -1,5 +1,0 @@
-r:
-	rm -f exec
-	rm -f a.out
-	g++ Vector.cc main.cc
-	./a.out

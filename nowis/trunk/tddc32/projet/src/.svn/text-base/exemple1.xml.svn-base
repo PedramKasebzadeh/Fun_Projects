@@ -1,9 +1,0 @@
-<Scene>
-	<Sphere x="20" y="5" z="-3" radius="4" r="255" g="0" b="0" specular="1" diffuse="1" phong="7" />
-	<Sphere x="20" y="-5" z="-3" radius="4" r="0" g="255" b="0" specular="0" diffuse="0.2" phong="7" />
-	<Sphere x="20" y="0" z="5" radius="4" r="0" g="0" b="255" specular="1" diffuse="0.2" phong="7" />
-	
-	<Camera x="0" y="0" z="0" dx="1" dy="0" dz="0" width="600" height="600" />
-	<AmbientLight r="0" g="0" b="0" />
-	<Light x="-30" y="40" z="30" r="255" g="255" b="255" />
-</Scene>

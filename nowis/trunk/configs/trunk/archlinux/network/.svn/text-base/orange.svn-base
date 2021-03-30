@@ -1,8 +1,0 @@
-CONNECTION="wireless"
-DESCRIPTION="orange@laprimaube"
-INTERFACE=wlan0
-SCAN="yes"
-SECURITY="wep"
-ESSID="Livebox-8608"
-KEY="5EDF31EF434BE815A0C18BFF55"
-IP="dhcp"

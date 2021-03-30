@@ -1,1 +1,0 @@
-java -classpath ./rllab.jar Main -filepath ./ -startfile tutorial_level.xml

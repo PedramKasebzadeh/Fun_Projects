@@ -1,6 +1,9 @@
 #include <vector>
 # include <iostream>
 #include <map>
+using namespace std;
+
+
 int findOdd(const std::vector<int>& numbers){
   std::map<int,int> input; // initialize the map
   for(int i : numbers){
@@ -12,11 +15,6 @@ int findOdd(const std::vector<int>& numbers){
        }
     }
   return 0;
-}
-int main(){
-    const std::vector<int>& numbers{1,1,2,2,3,4,4};
-     std::cout << findOdd(numbers) << std::endl;
-    return 0;
 }
 
 
@@ -30,4 +28,17 @@ int findOdd(const std::vector<int>& numbers) {
   return std::accumulate(numbers.cbegin(), numbers.cend(), 0, std::bit_xor<>());
 }
 
+*/
+
+/* OUT OF THE BOX! 
+#include <vector>
+
+int findOdd(const std::vector<int>& numbers){
+  int result = 0;
+  for(auto& num : numbers){
+    result = result ^ num;
+    
+  }
+  return result;
+}
 */

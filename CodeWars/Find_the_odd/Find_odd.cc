@@ -3,7 +3,6 @@
 #include <map>
 using namespace std;
 
-
 int findOdd(const std::vector<int>& numbers){
   std::map<int,int> input; // initialize the map
   for(int i : numbers){

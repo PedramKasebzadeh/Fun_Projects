@@ -5,18 +5,9 @@ class Tortoise
 {
 public:
     static std::vector<int> race(int v1, int v2, int g){
-        std::vector<int> res;
-        if(v1 >= v2){res.push_back(-1);res.push_back(-1);res.push_back(-1);return res;}
+        if(v1 >= v2) return {-1,-1,-1};
         int sec= floor((double) g/(v2-v1) * 3600) ;
-        std::cout << sec << std::endl;
-        int s= sec % 60;
-        int m= sec/60;
-        int h= m/60;
-        if(m>59){m= m%60;}
-        res.push_back(h);
-        res.push_back(m);
-        res.push_back(s);
-        return res;
+        return {sec/3600, (sec/60)%60, sec%60 };
     };
 };
 

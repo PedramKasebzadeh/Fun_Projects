@@ -2,6 +2,12 @@
     "folders": [
         {
             "path": "../../CodeWars"
+        },
+        {
+            "path": "../../WordSuggestion"
+        },
+        {
+            "path": "../../Publish_subscribe"
         }
     ],
     "settings": {

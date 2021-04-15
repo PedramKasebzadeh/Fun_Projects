@@ -3,7 +3,9 @@
         {
             "name": "Mac",
             "includePath": [
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/**",
+                "\"${vcpkgRoot}/x64-osx/include\"",
+                "$/Users/pedram/Desktop/eigen-3.3.9/**"
             ],
             "defines": [],
             "macFrameworkPath": [
@@ -13,7 +15,12 @@
             "compilerPath": "/usr/bin/clang",
             "cStandard": "c17",
             "cppStandard": "c++17",
-            "intelliSenseMode": "macos-clang-x64"
+            "intelliSenseMode": "macos-clang-x64",
+            "browse": {
+                "path": [
+                    "/usr/local/include/eigen-3.3.9"
+                ]
+            }
         }
     ],
     "version": 4

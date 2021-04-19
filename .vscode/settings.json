@@ -84,6 +84,21 @@
         "memory_resource": "cpp",
         "ranges": "cpp",
         "stop_token": "cpp",
-        "cinttypes": "cpp"
+        "cinttypes": "cpp",
+        "any": "cpp",
+        "cfenv": "cpp",
+        "charconv": "cpp",
+        "csetjmp": "cpp",
+        "csignal": "cpp",
+        "forward_list": "cpp",
+        "list": "cpp",
+        "scoped_allocator": "cpp",
+        "span": "cpp",
+        "typeindex": "cpp",
+        "unordered_set": "cpp",
+        "valarray": "cpp",
+        "cuchar": "cpp",
+        "hash_map": "cpp",
+        "numbers": "cpp"
     }
 }
